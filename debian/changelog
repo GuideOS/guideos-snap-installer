@@ -1,0 +1,17 @@
+guideos-snap-installer (1.2) unstable; urgency=medium
+
+  * Changed Icons
+
+ -- Actionschnitzel <actionschnitzel@guideos.de>  Sun, 04 May 2025 17:14:16 +0200
+
+guideos-snap-installer (1.1) unstable; urgency=medium
+
+  * Change: Icon
+
+ -- Actionschnitzel <actionschnitzel@guideos.de>  Sat, 15 Mar 2025 21:53:20 +0100
+
+guideos-snap-installer (1.0) unstable; urgency=medium
+
+  * Initial release.
+
+ -- Actionschnitzel <actionschnitzel@guideos.de>  Thu, 06 Feb 2025 00:22:10 +0100

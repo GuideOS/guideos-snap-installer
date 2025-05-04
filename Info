@@ -1,0 +1,18 @@
+GuidOS Snap Installer
+
+
+Der GuidOS Snap Installer ist ein Open-Source-Tool, entwickelt von evilware666, das die Installation und Deinstallation von Snap und seinen Komponenten erleichtert. Mit einer benutzerfreundlichen Zenity-GUI können Sie Snap, das Snap-Store-Plugin und den Snap Store selbst installieren oder entfernen.
+
+Voraussetzungen
+---------------------------------------------------------
+- Betriebssystem: Linux-Distribution mit APT-Paketmanager
+- Zenity muss installiert sein:
+  
+Terminal -Befehl:
+------------------------------------------------------------
+  sudo apt install zenity -y
+ 
+
+mfg:evilware666
+
+

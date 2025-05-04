@@ -1,0 +1,16 @@
+Source: guideos-snap-installer
+Section: misc
+Priority: optional
+Maintainer: Actionschnitzel <actionschnitzel@guideos.de>
+Build-Depends: debhelper (>= 9),bash
+Standards-Version: 0.0.1
+Homepage: https://guideos.de
+
+Package: guideos-snap-installer
+Architecture: all
+Depends: ${misc:Depends}, bash, zenity
+Description: An open-source tool for managing Snap installations
+ The GuidOS Snap Installer is an open-source tool developed by
+ evilware666 that simplifies the installation and removal of Snap
+ and its components. With a user-friendly Zenity GUI, you can install
+ or remove Snap, the Snap Store plugin, and the Snap Store itself.
