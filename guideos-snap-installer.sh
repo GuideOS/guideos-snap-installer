@@ -1,6 +1,30 @@
 #!/bin/bash
-# snap-manager.sh – Snap in GuideOS verwalten
-# GUI per Zenity, Snap installieren/deinstallieren, AppArmor prüfen, Menüeinträge korrekt verlinken
+# ==============================================================================
+# Titel       : GuideOS Snap-Manager
+# Beschreibung: Zenity-basiertes Bash-Skript zur komfortablen Verwaltung von Snap.
+#               Das Programm prüft, ob Snap bereits installiert ist, und bietet
+#               dem Benutzer eine grafische Auswahl zur Installation oder
+#               Deinstallation. Während der Vorgänge zeigt es Fortschrittsfenster
+#               mit Statusmeldungen an und führt alle notwendigen Systembefehle
+#               automatisiert aus (inkl. AppArmor, snapd-Dienst, Menü-Verlinkung).
+#               Ziel ist eine einfache, sichere und transparente Handhabung von
+#               Snap-Komponenten ohne manuelle Terminaleingaben.
+#
+# Entwickler  : evilware666 & Helga
+# Version     : 1.1
+# Datum       : 19.12.2025
+# Lizenz      : MIT
+# ==============================================================================
+#
+# Hinweis     : - Das Skript benötigt Sudo-Rechte für Installation/Deinstallation.
+#               - Bei der Installation werden AppArmor, snapd und das GNOME-Plugin
+#                 eingerichtet sowie ein Symlink und PATH-Eintrag erstellt.
+#               - Bei der Deinstallation werden Snap Store, Plugin und snapd
+#                 vollständig entfernt.
+#               - Nach Änderungen empfiehlt sich ein Neustart des Systems.
+#
+# -------------------------------------------------------
+
 
 # Passwortabfrage mit Zenity
 PASS=$(zenity --password --title="Sudo Passwort eingeben" \
